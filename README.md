@@ -21,7 +21,7 @@
 
 ## Download
 
-Builds are available for **macOS**, **Debian/Ubuntu**, **FreeBSD** and **Windows**.
+Builds are available for **macOS**, **Debian/Ubuntu** and **FreeBSD**. (Windows builds are failing)
 
 Visit [Buffet GitHub Releases](https://github.com/harshjv/buffet/releases)
 
