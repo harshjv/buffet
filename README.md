@@ -26,8 +26,9 @@ Builds are available for **macOS**, **Debian/Ubuntu**, **FreeBSD** and **Windows
 Visit [Buffet GitHub Releases](https://github.com/harshjv/buffet/releases)
 
 
-## `js-ipfs` issues to track
+## Upstream project issues to track
 
+* [No routes for HTTP Gateway (ipfs/js-ipfs#693)](https://github.com/ipfs/js-ipfs/issues/693)
 * [No peers and addresses (ipfs/js-ipfs#694)](https://github.com/ipfs/js-ipfs/issues/694)
 
 ## License
