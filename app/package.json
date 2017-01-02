@@ -1,0 +1,27 @@
+{
+  "name": "buffet",
+  "productName": "Buffet",
+  "version": "0.0.1-alpha.1",
+  "description": "Cross platform IPFS application with built-in managed IPFS-node",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshjv/buffet.git"
+  },
+  "author": "Harsh Vakharia <harshjv@gmail.com> (https://harshjv.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshjv/buffet/issues"
+  },
+  "homepage": "https://github.com/harshjv/buffet#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "express": "^4.14.0",
+    "fs-pull-blob-store": "^0.4.1",
+    "ipfs": "^0.20.4",
+    "ipfs-repo": "^0.11.2",
+    "mime-types": "^2.1.13",
+    "multihashes": "^0.3.1",
+    "nat-upnp": "^1.0.4"
+  }
+}

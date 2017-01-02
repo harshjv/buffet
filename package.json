@@ -1,0 +1,41 @@
+{
+  "name": "buffet",
+  "version": "0.0.1-alpha.1",
+  "description": "Cross platform IPFS application with built-in managed IPFS-node",
+  "scripts": {
+    "test": "standard",
+    "start": "electron app/main.js",
+    "pack": "build --dir",
+    "dist": "build",
+    "postinstall": "install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshjv/buffet.git"
+  },
+  "author": "Harsh Vakharia <harshjv@gmail.com> (https://harshjv.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshjv/buffet/issues"
+  },
+  "homepage": "https://github.com/harshjv/buffet#readme",
+  "devDependencies": {
+    "electron": "^1.4.13",
+    "electron-builder": "^10.15.1",
+    "standard": "^8.6.0"
+  },
+  "build": {
+    "appId": "com.harshjv.buffet",
+    "productName": "Buffet",
+    "mac": {
+      "category": "public.app-category.productivity"
+    },
+    "linux": {
+      "category": "Utility",
+      "target": [
+        "deb",
+        "zip"
+      ]
+    }
+  }
+}

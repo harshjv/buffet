@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const { ipcRenderer, shell } = require('electron')
+
+  ipcRenderer.on('notification', (event, { title, body, url }) => {
+    const notification = new Notification(title, { body })
+
+    if (url) {
+      notification.addEventListener('click', () => {
+        shell.openExternal(url)
+      })
+    }
+  })
+</script>
+</body>
+</html>
