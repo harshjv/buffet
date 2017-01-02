@@ -33,7 +33,10 @@
     "linux": {
       "category": "Utility",
       "target": [
+        "AppImage",
         "deb",
+        "rpm",
+        "freebsd",
         "zip"
       ]
     }
